@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+    margin: 50px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 18px;
+    background: #456;
+    color: #000;
+    text-align: center;
+    line-height: 1.5em;
+    background: url(wood2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.page-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.page-wrapper::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.vcard {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.125);
+}
+
+.vcard h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.vcard img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.links-area {
+    margin-top: 20px
+}
+
+.links-area a {
+    color: #48c;
+    margin: 0 10px;
+    text-decoration: none;
+}
