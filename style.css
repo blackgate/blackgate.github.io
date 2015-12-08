@@ -4,11 +4,13 @@ body {
     font-family: "Open Sans";
     font-weight: 300;
     font-size: 18px;
-    background: #456;
     color: #000;
     text-align: center;
     line-height: 1.5em;
-    background: url(wood2.jpg) no-repeat center center;
+    background-color: #333;
+    background-image: url(wood2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
 }
 
